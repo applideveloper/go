@@ -1,0 +1,22 @@
+package main
+
+import "fmt"
+
+func swap(x, y string) (string, string) {
+    return y, x
+}
+
+func main() {
+    a, b := swap("hello", "world")
+    fmt.Println(a, b)
+}
+
+/*
+Multiple results
+
+関数は複数の戻り値を返すことができます。
+
+この swap 関数は２つのstringを返します。
+
+簡単にスワップできますね！
+*/
